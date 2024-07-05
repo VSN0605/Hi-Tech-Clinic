@@ -228,15 +228,17 @@ h6:last-child {
 .top-header-area {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #f7f7f7;
+  background-color: rgb(150, 111, 111);
+  color: white;
 }
 .top-header-information {
   padding-left: 0;
   margin-bottom: 0;
+  color: white;
 }
 .top-header-information li {
   font-size: 15px;
-  color: #222;
+  color: white;
   font-weight: 500;
   list-style-type: none;
   display: inline-block;
@@ -395,7 +397,7 @@ h6:last-child {
 }
 .main-navbar {
   padding: 10px 0;
-  background-color: #f7f7f7;
+  background-color: rgb(150, 111, 111);
 }
 .main-navbar .navbar {
   transition: 0.6s;
@@ -408,6 +410,7 @@ h6:last-child {
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
+  /* color: white; */
 }
 .main-navbar .navbar .navbar-nav {
   margin-right: auto;
@@ -418,7 +421,7 @@ h6:last-child {
   margin-right: 20px;
 }
 .main-navbar .navbar .navbar-nav .nav-item a {
-  color: #222;
+  color: white;
   font-size: 16px;
   font-weight: 600;
   padding-left: 0;
@@ -1839,7 +1842,7 @@ h6:last-child {
   color: #fff;
 }
 .single-services:hover .services-content {
-  background-color: #06a3da;
+  background-color: rgb(150, 111, 111);
 }
 .single-services:hover .services-content h3 a {
   color: #fff;
@@ -2296,7 +2299,8 @@ h6:last-child {
   line-height: 80px;
   background-color: #fff;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-  color: #06a3da;
+  /* color: #06a3da; */
+  color: rgb(150, 111, 111);
   font-size: 45px;
   text-align: center;
   border-radius: 50%;
@@ -2316,7 +2320,7 @@ h6:last-child {
   color: #6a6c72;
 }
 .about-content .about-info:hover i {
-  background-color: #06a3da;
+  background-color: rgb(150, 111, 111);
   color: #fff;
 }
 .about-image {
@@ -2418,7 +2422,7 @@ h6:last-child {
   transform: translateY(-10px);
 }
 .single-core-features:hover .icon i {
-  background-color: #06a3da;
+  background-color: rgb(142, 96, 96);
   color: #fff;
 }
 .single-doctor {
@@ -2969,7 +2973,7 @@ h6:last-child {
   color: #06a3da;
 }
 .fun-facts-area {
-  background-color: #06a3da;
+  background-color: rgb(150, 111, 111);
 }
 .single-fun-fact {
   margin-bottom: 30px;
@@ -3585,7 +3589,7 @@ h6:last-child {
 .contact-info .contact-info-content .social li a:hover {
   color: #fff;
   border-color: #06a3da;
-  background-color: #06a3da;
+  background-color: rgb(150, 111, 111);
 }
 .services-details-image img {
   border-radius: 30px;
@@ -5781,6 +5785,7 @@ blockquote p,
 }
 .dental-tourism-review-area {
   background-color: #eff8fb;
+  /* background-color: rgb(142, 96, 96); */
 }
 .dental-tourism-review-area .section-title-warp .sub-title {
   background-color: #1dbfcc;
